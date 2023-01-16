@@ -1,7 +1,7 @@
 // import react
 import React, { useState } from 'react';
 // helper for email validation
-import { validateEmail } from "../../utils/helpers";
+import { validateEmail } from "../utils/helpers.js";
 
 function Contact() {
     // state variables for fields

@@ -1,7 +1,7 @@
 // import react
 import React from 'react';
 
-function Project() {
+function Project(props) {
     return (
         <section>
         <h1>Project</h1>
@@ -9,7 +9,7 @@ function Project() {
                 <img src=""></img>
             <div className='overlay'>
                 <div className='text'>
-                    <a href="">Hello</a>
+                    <a href="${}">{}</a>
                 </div>
             </div>
             </div>
