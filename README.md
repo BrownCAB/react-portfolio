@@ -47,6 +47,7 @@ npm start
 ```
 ## Credits 
 Instructor, 2u Tutor and TA.
+social media icons - https://icon8.com
 
 
 ## Questions
