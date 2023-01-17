@@ -18,7 +18,7 @@ function Footer() {
             </div>
             <div>
                 <a 
-                    href="https://github.com/BrownCAB" 
+                    href="https://www.instagram.com/abcm_designs/" 
                     target="_blank" 
                     rel="noopener noreferre"> 
                     <img 
@@ -30,7 +30,7 @@ function Footer() {
             </div>
             <div>
                 <a 
-                    href="https://github.com/BrownCAB" 
+                    href="https://www.linkedin.com/in/calah-brown-94947213b/" 
                     target="_blank" 
                     rel="noopener noreferre"> 
                     <img 

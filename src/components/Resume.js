@@ -28,7 +28,7 @@ function Resume() {
                 <p>Optimize your web applications for speed and efficiency, as well as prepare for the transition to a career in web development.</p>
                 <ol>
                     <li>NoSQL</li>
-                    <li>MongoDD</li>
+                    <li>MongoDB</li>
                     <li>PWAs</li>
                     <li>React</li>
                 </ol>

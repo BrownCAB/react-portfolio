@@ -45,7 +45,7 @@ function Contact() {
 
 
     return (
-        <section>
+        <div>
             <h1>Contact Page</h1>
            <div>
                 <form id="contact-form" onSubmit={handleSubmit}>
@@ -64,7 +64,7 @@ function Contact() {
                     <button className="button" type="submit">Submit</button>
                 </form>
             </div>
-        </section>
+        </div>
     );
 }
 
