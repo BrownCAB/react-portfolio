@@ -7,12 +7,12 @@ import Row from 'react-bootstrap/Row';
 
 function Project(props) {
   const { project } = props;
+  console.log(project)
     return (
         <Row xs={1} md={2} className="g-4">
          <Col>
-        {/* {project.map((project) => ( */}
-          <Card key={project.id}>
-            <Card.Img variant="top" src={project.image} />
+          <Card d-flex bd-highlight key={project.id}>
+            <Card.Img variant="top" src={require(`../assets/images/${project.image}.png`)} />
             <Card.Body>
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>
@@ -23,9 +23,8 @@ function Project(props) {
         <Card.Link href={project.deployed}>Live</Card.Link>
             </Card.Body>
           </Card>
-           {/* ))}  */}
-        </Col>
-    </Row>
+       </Col>
+   </Row>
     );
 }
 

@@ -12,7 +12,7 @@ function Portfolio() {
             description: "I want to take a timed quiz on JavaScript fundamentals that stores high scores so that I can guage my knowledge against my peers.",
             github: "https://github.com/BrownCAB/Code_Quiz",
             deployed: "https://browncab.github.io/Code_Quiz/",
-            image: "/images/code_quiz.png",
+            image: "code_quiz",
         },
         {
             id: 1,
@@ -21,7 +21,7 @@ function Portfolio() {
             description: "As an employee with access to sensitive data I want to randomly generate a strong password that meets the acceptance critieria to secure the data.",
             github: "https://github.com/BrownCAB/Random_Password_Generator",
             deployed: "https://browncab.github.io/Random_Password_Generator/",
-            image: "/images/random_password_generator.png",
+            image: "random_password_generator",
         },
         {
             id: 2,
@@ -30,7 +30,7 @@ function Portfolio() {
             description: "As a manager I want to generate a webpage that displays my team's basic information so that I have quick access to the email and Github profiles.",
             github: "https://github.com/BrownCAB/Team_Profile_Generator",
             deployed: "",
-            image: "/images/team_profile_generator.png",
+            image: "team_profile_generator",
         },
         {
             id: 3,
@@ -39,7 +39,7 @@ function Portfolio() {
             description: "As a developer I want to create notes or code snippets with or without an internet connection so that I can reliably retrieve them for later use.",
             github: "https://github.com/BrownCAB/Text-Editor",
             deployed: "",
-            image: "/images/text-editor.png",
+            image: "text-editor",
         },
         {
             id: 4,
@@ -48,7 +48,7 @@ function Portfolio() {
             description: "I'm a traveler who I wants to see the weather outlook for multiple cities so that I can plan a trip accordingly.",
             github: "https://github.com/BrownCAB/Weather_Dashboard",
             deployed: "https://browncab.github.io/Weather_Dashboard/",
-            image: "/images/weather_dashboard.png",
+            image: "weather_dashboard",
         },
         {
             id: 5,
@@ -57,7 +57,7 @@ function Portfolio() {
             description: "I'm an employee who wants to add important events to a daily planner so I can manage my time effectively.",
             github: "https://github.com/BrownCAB/Work_Scheduler",
             deployed: "https://browncab.github.io/Work_Scheduler/",
-            image: "/images/work_scheduler.png",
+            image: "work_scheduler",
         },
     ] 
     return (

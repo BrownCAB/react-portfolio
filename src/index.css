@@ -1,5 +1,5 @@
 /* --- Base --- */
-*root {
+* {
     box-sizing: border-box;
 }
 
@@ -8,12 +8,39 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: #028f9f;
+}
+
+h1, h2, h3, p {
+    color: white;
+}
+
+
+
+h1 {
+    font-size: 3.0vw;
+   
+}
+
+h2 {
+    font-size: 3.5vw;
+    color: #028f9f;
+}
+
+h3 {
+    font-size: 2.0vw;
+    
+}
+
+p {
+    font-size: 1.5vw;
+    
 }
 
 /* --- Header --- */
 header {
     padding: 20px 35px;
-    background-color: #D5F2EA;
+    background-color: #cdfaff;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -40,11 +67,11 @@ header nav {
   /* button styling */
   
   header nav ul li a {
-    padding: 10px 15px;
+    padding: 10px;
     font-weight: normal;
     font-size: 1.60vw;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 15px;
+    border-radius: 10px;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
     -o-transition: all 1s ease;
@@ -54,24 +81,106 @@ header nav {
   }
   
   header nav ul li a:hover {
-    background: #0E5259;
-    color: #D5F2EA;
+    background: #028f9f;
+    color: #cdfaff;
     border-radius: 15px;
     text-shadow: none;
     /*    transition: .5s ease-in;*/
 }
 
+/* about */
+.about {
+    margin: 5px 10px;
+}
+
+.about h1 {
+    justify-content: center;
+}
+
+/* Contact Form */
+form {
+
+    justify-content: center;
+}
+
+input {
+	font-size: 1rem;
+	padding: 0.25rem;
+	border: 1px solid var(--dark);
+	outline: none;
+	border-radius: 3px;
+	transition: box-shadow 0.2s;
+	width: 30vw;
+}
+
+input:focus {
+	border: 1px solid var(--secondary);
+	box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+/* Portfolio */
+
+.card-title {
+    color:white;
+}
+
+.card-title.h5 {
+    font-size: 2.0vw;
+}
+
+.card-img-top {
+    width: 25%;
+}
+
+.card-link {
+    padding: 0 20px;
+    font-size: 1.0vw;
+    color: white;
+}
+
+.card-body  {
+  padding: 20px;
+}
+
 
 /* --- Footer --- */
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
 
+footer img {
+    max-width: 60px;
+    padding: 10px;
+}
 
 /* --- Media Screens --- */
 
 /* Mobile 575px */
+@media screen and (max-width: 575px) {
+    h1 {
+        font-size: 2.0vw;
+    }
+    
+    h2 {
+        font-size: 1.5vw;
+    }
+    
+    h3 {
+        font-size: 1.5vw;
+    }
+    
+    p {
+        font-size: 1.5vw;
+    }
+}
 
 /* Tablet 768px */
+@media screen and (max-width: 768px) {}
 
 /* Desktop 980px */
+@media screen and (max-width: 980px) {
 header {
     padding-bottom: 0;
     justify-content: center;
@@ -86,4 +195,5 @@ header nav ul {
 
 header nav ul li a {
     font-size: 20px;
+}
 }
