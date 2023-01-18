@@ -62,7 +62,10 @@ function Portfolio() {
     ] 
     return (
         <section>
-            <h1>Portfolio</h1>
+            <div className='portfolio'> 
+                <h1>Portfolio</h1>
+                </div>
+           
                 <div>
                 {projects.map((project, i) => (
                     // pass your projects component with a key and project ={project}

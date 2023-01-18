@@ -59,8 +59,8 @@ function Contact() {
 
   return (
     <div>
-      <h1>Contact Page</h1>
-      <div>
+      <h1 className="contact">Contact</h1>
+      <div className="form">
         <form id="contact-form" onSubmit={handleSubmit}>
           <div className="field">
             <label className="label" htmlFor="name">

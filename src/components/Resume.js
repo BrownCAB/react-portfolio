@@ -4,15 +4,16 @@ import React from 'react';
 function Resume() {
     return (
         <section>
-            <div className="Resume">
+            <div className="resume">
                 <h1>Resume</h1>
-                </div>
-           
-                <div className="pdf"><a href={require('../assets/files/cashleybrown.pdf')} Download Resume>
+            </div> 
+               <br></br>
+           <div className="pdf">
+                <a href={require('../assets/files/cashleybrown.pdf')} Download Resume><h3>Download Resume</h3>
                     </a>
                 </div>
-                
-            <div>
+                <br></br> 
+            <div className='skills'>
                 <h3>Front End</h3>
                 <p>The fundamental concepts of web development, including front-end technologies, command-line fundamentals, and APIs.</p>
                 <ol>

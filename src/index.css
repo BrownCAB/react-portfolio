@@ -29,12 +29,21 @@ h2 {
 
 h3 {
     font-size: 2.0vw;
-    
+}
+
+a h3:hover  {
+    color: #cdfaff;
+    font-size: 3.0vw;
+    text-decoration: underline;
 }
 
 p {
     font-size: 1.5vw;
     
+}
+
+a:hover {
+    color: #cdfaff;
 }
 
 /* --- Header --- */
@@ -89,18 +98,31 @@ header nav {
 }
 
 /* about */
-.about {
-    margin: 5px 10px;
+.about, .summary, .portfolio, .resume, .pdf, .contact {
+    margin: 10px 20px;
+    padding: 20px
 }
 
 .about h1 {
     justify-content: center;
 }
 
-/* Contact Form */
-form {
+.profile {
+   padding-bottom: 20px;
+}
 
-    justify-content: center;
+.profile img {
+    display: block;
+    margin: auto;
+    width: 50%;    
+}
+
+/* Contact Form */
+
+
+form {
+    width: 40%;
+    padding: 5px 40px;
 }
 
 input {
@@ -114,9 +136,22 @@ input {
 }
 
 input:focus {
-	border: 1px solid var(--secondary);
+	border: 1px solid #028f9f;
 	box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
 }
+
+textarea {
+	width: 50vw;
+	height: 120px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+}
+
+.label {
+    color:white;
+ }
+
+
 
 /* Portfolio */
 
@@ -129,18 +164,30 @@ input:focus {
 }
 
 .card-img-top {
-    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 .card-link {
     padding: 0 20px;
-    font-size: 1.0vw;
-    color: white;
+    font-size: 1.5vw;
+    color: white; 
 }
 
 .card-body  {
-  padding: 20px;
+  padding: 10px 50px 10px;
+  text-align: center;
 }
+
+/* Resume  */
+ .skills {
+    color: white;
+    padding-left: 30px;
+    text-decoration: none;
+}
+
 
 
 /* --- Footer --- */

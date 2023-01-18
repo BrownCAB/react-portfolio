@@ -17,6 +17,7 @@ function Project(props) {
               <Card.Title>{project.title}</Card.Title>
               <Card.Text>
                 {project.technologies}
+                <br/>
                 {project.description}
               </Card.Text>
               <Card.Link href={project.github }>Github</Card.Link>

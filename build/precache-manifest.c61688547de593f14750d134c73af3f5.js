@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8065b7f2f425fb8b014e",
-    "url": "/react-portfolio/static/css/main.f467186f.chunk.css"
+    "revision": "b5d5274433d98919d675",
+    "url": "/react-portfolio/static/css/main.7732ab04.chunk.css"
   },
   {
-    "revision": "8065b7f2f425fb8b014e",
-    "url": "/react-portfolio/static/js/main.89ccb944.chunk.js"
+    "revision": "b5d5274433d98919d675",
+    "url": "/react-portfolio/static/js/main.aa2ba2ce.chunk.js"
   },
   {
     "revision": "94872cf7e81768d148a3",
@@ -14,6 +14,10 @@ self.__precacheManifest = [
   {
     "revision": "e1ac88fad40cf53b4f1e",
     "url": "/react-portfolio/static/js/2.9ee375ed.chunk.js"
+  },
+  {
+    "revision": "14efeae1358744b050991714611e2fff",
+    "url": "/react-portfolio/static/media/profile_image.14efeae1.jpg"
   },
   {
     "revision": "bdc160ee496e91bb035d8f0c2a654d16",
@@ -44,7 +48,7 @@ self.__precacheManifest = [
     "url": "/react-portfolio/static/media/cashleybrown.8ddc62d3.pdf"
   },
   {
-    "revision": "69ad0a606d6fcbcea29ae6d3a7045582",
+    "revision": "ab7aaf5f697731a07fdfaecfefb7acc4",
     "url": "/react-portfolio/index.html"
   }
 ];
