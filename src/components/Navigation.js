@@ -8,30 +8,30 @@ function Navigation(props) {
             <nav>
                 <ul className="navbar">
                     <li className="nav-item">
-                        <a class="nav-link" href="#about" 
+                        <a className="nav-link" href="#about" 
                         onClick={() => handlePageChange('About')}
-                        className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                        id={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                         > About
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a class="nav-link" href="#portfolio" 
+                        <a className="nav-link" href="#portfolio" 
                         onClick={() => handlePageChange('Portfolio')}
-                        className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
+                        id={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
                         > Portfolio
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a class="nav-link" href="#contact" 
+                        <a className="nav-link" href="#contact" 
                         onClick={() => handlePageChange('Contact')}
-                        className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                        id={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                         > Contact
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a class="nav-link" href="#resume" 
+                        <a className="nav-link" href="#resume" 
                         onClick={() => handlePageChange('Resume')}
-                        className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                        id={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                         > Resume
                         </a>
                     </li>

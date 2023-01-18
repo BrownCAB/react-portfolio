@@ -64,7 +64,14 @@ function Portfolio() {
         <section>
             <h1>Portfolio</h1>
                 <div>
-                    <Project projects={projects} />
+                {projects.map((project, i) => (
+                    // pass your projects component with a key and project ={project}
+                    <Project
+                    project={project}
+                    key={project.id}
+                    >
+                    </Project>
+                    ))}
                 </div>
         </section>
 
