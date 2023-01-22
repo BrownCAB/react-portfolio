@@ -29,7 +29,7 @@ function Portfolio() {
             technologies: "HTML, JS",
             description: "As a manager I want to generate a webpage that displays my team's basic information so that I have quick access to the email and Github profiles.",
             github: "https://github.com/BrownCAB/Team_Profile_Generator",
-            deployed: "",
+            deployed: "https://user-images.githubusercontent.com/110314270/207427260-73614cc6-44ca-4367-8f3c-d0c9d2d0dc19.mp4",
             image: "team_profile_generator",
         },
         {
@@ -38,7 +38,7 @@ function Portfolio() {
             technologies: "HTML, CSS, JS, API",
             description: "As a developer I want to create notes or code snippets with or without an internet connection so that I can reliably retrieve them for later use.",
             github: "https://github.com/BrownCAB/Text-Editor",
-            deployed: "",
+            deployed: "https://nameless-atoll-40018.herokuapp.com/",
             image: "text-editor",
         },
         {
