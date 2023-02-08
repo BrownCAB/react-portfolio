@@ -1,21 +1,22 @@
 {
-  "main.css": "/react-portfolio/static/css/main.7732ab04.chunk.css",
-  "main.js": "/react-portfolio/static/js/main.aa2ba2ce.chunk.js",
-  "main.js.map": "/react-portfolio/static/js/main.aa2ba2ce.chunk.js.map",
-  "runtime~main.js": "/react-portfolio/static/js/runtime~main.f974a8eb.js",
-  "runtime~main.js.map": "/react-portfolio/static/js/runtime~main.f974a8eb.js.map",
-  "static/js/2.9ee375ed.chunk.js": "/react-portfolio/static/js/2.9ee375ed.chunk.js",
-  "static/js/2.9ee375ed.chunk.js.map": "/react-portfolio/static/js/2.9ee375ed.chunk.js.map",
-  "index.html": "/react-portfolio/index.html",
-  "precache-manifest.c61688547de593f14750d134c73af3f5.js": "/react-portfolio/precache-manifest.c61688547de593f14750d134c73af3f5.js",
-  "service-worker.js": "/react-portfolio/service-worker.js",
-  "static/css/main.7732ab04.chunk.css.map": "/react-portfolio/static/css/main.7732ab04.chunk.css.map",
-  "static/media/cashleybrown.pdf": "/react-portfolio/static/media/cashleybrown.8ddc62d3.pdf",
-  "static/media/code_quiz.png": "/react-portfolio/static/media/code_quiz.bdc160ee.png",
-  "static/media/profile_image.jpg": "/react-portfolio/static/media/profile_image.14efeae1.jpg",
-  "static/media/random_password_generator.png": "/react-portfolio/static/media/random_password_generator.68bb05d1.png",
-  "static/media/team_profile_generator.png": "/react-portfolio/static/media/team_profile_generator.97c53256.png",
-  "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.e26d2269.png",
-  "static/media/weather_dashboard.png": "/react-portfolio/static/media/weather_dashboard.6640e632.png",
-  "static/media/work_scheduler.png": "/react-portfolio/static/media/work_scheduler.708dcae4.png"
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.4fa5bb36.css",
+    "main.js": "/react-portfolio/static/js/main.63fb11f0.js",
+    "static/media/ccssalon.png": "/react-portfolio/static/media/ccssalon.c6ceb650392436a27a1a.png",
+    "static/media/weather_dashboard.png": "/react-portfolio/static/media/weather_dashboard.55e6b464917c4cb38826.png",
+    "static/media/cashleybrown.pdf": "/react-portfolio/static/media/cashleybrown.ce33607fa0867a9b6989.pdf",
+    "static/media/work_scheduler.png": "/react-portfolio/static/media/work_scheduler.c7f897b6487f8d068a43.png",
+    "static/media/profile_image.jpg": "/react-portfolio/static/media/profile_image.1fe3b420a960af08f5bd.jpg",
+    "static/media/random_password_generator.png": "/react-portfolio/static/media/random_password_generator.665433466cb93f08f558.png",
+    "static/media/team_profile_generator.png": "/react-portfolio/static/media/team_profile_generator.7646b640ea47433cae30.png",
+    "static/media/code_quiz.png": "/react-portfolio/static/media/code_quiz.05447cbd1343b577bae5.png",
+    "static/media/text-editor.png": "/react-portfolio/static/media/text-editor.cbff8fc9994e88c064e6.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.4fa5bb36.css.map": "/react-portfolio/static/css/main.4fa5bb36.css.map",
+    "main.63fb11f0.js.map": "/react-portfolio/static/js/main.63fb11f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fa5bb36.css",
+    "static/js/main.63fb11f0.js"
+  ]
 }

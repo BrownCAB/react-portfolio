@@ -44,6 +44,7 @@ The challenge use will follow the
 npx create-react-app [name-app]
 cd [name-app]
 npm start
+npm run build
 ```
 ## Credits 
 Instructor, 2u Tutor and TA.

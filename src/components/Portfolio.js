@@ -59,6 +59,15 @@ function Portfolio() {
             deployed: "https://browncab.github.io/Work_Scheduler/",
             image: "work_scheduler",
         },
+        {
+            id: 6,
+            title: "CCsSalon Mern Stack Project",
+            technologies: "Mongo, Express, React, Node",
+            description: "User must be logged in in order to complete an appointment or they will be redirected to login page or user must sign up if they do not already have login information created.",
+            github: "https://github.com/blu3bloodedcod3r/CCsSalon",
+            deployed: "https://projectsalon.herokuapp.com/",
+            image: "ccssalon",
+        },
     ] 
     return (
         <section>
