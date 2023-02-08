@@ -45,6 +45,7 @@ npx create-react-app [name-app]
 cd [name-app]
 npm start
 npm run build
+npm run deploy
 ```
 ## Credits 
 Instructor, 2u Tutor and TA.
